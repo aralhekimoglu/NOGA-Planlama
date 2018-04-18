@@ -1,0 +1,199 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+nav {
+    background-color: #f8d7ad;
+    border-color: #E7E7E7;
+}
+
+.navbar-header{
+  width: 500px;
+  height: 68px;
+  text-align:center;
+}
+
+#navbar-firma-logo{
+  width:55px;
+  height:55px;
+  margin-top:5px;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+#navbar-firma-noga-logo{
+  width:209px;
+  height:48px;
+  margin-top:10px;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+#navigation_bar a{
+  color: #6d6151;
+}
+
+
+nav ul li a {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: 800;
+  font-size: 20px;
+
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+
+nav.shift ul li a {
+  position:relative;
+  z-index: 1;
+}
+nav.shift ul li a:hover {
+  color: #91640F;
+}
+
+nav.shift ul li a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: #fbd373;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+nav.shift ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -300px;
+
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+    height: 300px;
+}
+
+#footer {
+  position: relative;
+  text-align: center;
+  background-color: #f8d7ad;
+  padding-top: 10px;
+  color:#6d6151;
+}
+
+p{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+  color:#6d6151;
+}
+
+#bize_ulasin_footer{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  padding: -10px;
+}
+
+#baglantılar a{
+  color:#6d6151;
+}
+#copyright {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid #6d6151;;
+  background-color: #FFFFFF;
+}
+
+#baglantılar{
+  border-left: 10px double #6d6151;
+}
+
+#spo{
+  border-left: 10px double #6d6151;
+}
+
+#spo img{
+  width:110px; 
+  margin-top:70px;
+}
+
+#main_icons_container{
+  text-align: center;
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+#main_icons_container::after {
+  content: "";
+  background: url(../img/background_plan.png);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;     
+}
+
+#baglantilar_links{
+  text-align: left;
+}
+
+.icons_container_points{
+  text-align: left;
+  padding-left: 150px;
+}
+
+.rounded-circle{
+  margin-top:8%;
+  margin-bottom:4%; 
+    -webkit-transition: all 0.25s ease;
+     -moz-transition: all 0.25s ease;
+       -o-transition: all 0.25s ease;
+      -ms-transition: all 0.25s ease;
+          transition: all 0.25s ease;
+}
+
+.rounded-circle:hover {
+  width: 170px;
+  height: 170px;
+  border: 5px solid green;
+}
